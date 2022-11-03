@@ -1,0 +1,53 @@
+/* Button medium */
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+
+.btn-medium:hover {
+  color: #555555;
+  border-color: #555555;
+}
+
+
+/* Button treehouse */
+
+.btn-treehouse {
+  background-color: #6AD58B;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 15px 25px;
+  font-weight: 700;
+  transition: background 0.3s ease;
+}
+
+.btn-treehouse:hover {
+  background-color: #09D849;
+}
+
+
+/* Button mine */
+
+.btn-mine {
+  background-color: #000000;
+  color: #F826FC;
+  border-radius: 4px;
+  padding: 15px 25px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.btn-mine:hover {
+  background-color: #000000;
+  color: #00F7FF;
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.btn-mine:active {
+  transform: scale(0.98);
+}

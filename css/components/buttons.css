@@ -1,0 +1,27 @@
+.btn-mine {
+  font-size: 28px;
+  background-color: #F826FC;
+  color: #000000;
+  border-radius: 4px;
+  padding: 25px 40px;
+  font-weight: 700;
+  display: inline-block;
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+}
+
+.btn-mine:hover {
+  background-color: #00F7FF;
+  color: #000000;
+  transform: scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.btn-mine:active {
+  transform: scale(1.05);
+}
+
+.btn-position {
+  position:absolute;
+  bottom: 100px;
+  left: 100px;
+}

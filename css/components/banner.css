@@ -1,0 +1,17 @@
+.banner {
+  background-size: cover;
+  height: 800px;
+  background-position-y: center;
+  position: relative;
+}
+
+.banner h1, h2 {
+  display: inline-block;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner div {
+  width: 50%;
+  padding: 200px 100px;
+}
